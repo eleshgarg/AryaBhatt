@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/settings_applogo"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:src="@drawable/booksapplogo"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="90dp"
+                />
+
+            <TextView
+                android:id="@+id/settings_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settings_applogo"
+                android:background="@drawable/inputs"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:text="AryaBhatt - The Book Bazzar \n Welcomes You"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/settings_edit_profile_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settings_welcome"
+                android:background="@drawable/buttons"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Edit Profile"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/settings_admin_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settings_edit_profile_btn"
+                android:background="@drawable/buttons"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Admin Login"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/settings_contactus_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settings_admin_btn"
+                android:background="@drawable/buttons"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Contact Us"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

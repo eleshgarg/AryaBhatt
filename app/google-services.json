@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "634076556782",
+    "firebase_url": "https://bookbazzarunique.firebaseio.com",
+    "project_id": "bookbazzarunique",
+    "storage_bucket": "bookbazzarunique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634076556782:android:b7b7da1c4780fe15e532ff",
+        "android_client_info": {
+          "package_name": "com.example.aryabhatt_thebookbazzar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634076556782-ma121cft0v35mm1f0sup6hl3u3t1djbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_CHDrCD0U51fubR--AGB-mSwFrJaRVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634076556782-ma121cft0v35mm1f0sup6hl3u3t1djbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

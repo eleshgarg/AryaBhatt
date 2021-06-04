@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="249dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_marginTop="15dp">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="249dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:layout_below="@+id/spinner">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="249dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:layout_below="@+id/spinner1">
+        </Spinner>
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/s1"
+                android:id="@+id/dd1"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/r1"
+                android:id="@+id/dd2"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/q1"
+                android:id="@+id/dd3"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/p1"
+                android:id="@+id/dd4"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/o1"
+                android:id="@+id/dd5"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/n1"
+                android:id="@+id/dd6"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/k1"
+                android:id="@+id/dd7"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/l1"
+                android:id="@+id/dd8"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/m1"
+                android:id="@+id/dd9"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/school_wise"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll3"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+            android:text="School Wise"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
